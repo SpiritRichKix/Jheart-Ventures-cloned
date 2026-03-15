@@ -5,6 +5,18 @@ const contactBtn = document.querySelector("#contactBtn");
 
 const getQuoteBtn = document.querySelector("#getQuoteBtn");
 
+const heroSlide1 = document.querySelector("#heroSlide1");
+const carouselBack1 = document.querySelector("#carouselBack1");
+const carouselNext1 = document.querySelector("#carouselNext1");
+
+const heroSlide2 = document.querySelector("#heroSlide2");
+const carouselBack2 = document.querySelector("#carouselBack2");
+const carouselNext2 = document.querySelector("#carouselNext2");
+
+const heroSlide3 = document.querySelector("#heroSlide3");
+const carouselBack3 = document.querySelector("#carouselBack3");
+const carouselNext3 = document.querySelector("#carouselNext3");
+
 homeBtn.addEventListener("click",
     (e) => {
         e.preventDefault()
@@ -57,4 +69,16 @@ getQuoteBtn.addEventListener("click",
 )
 
 const navButtons = [homeBtn, paintingBtn, webMobBtn, contactBtn];
-// DO THE ABOVE USIG SIMPLER CODE.
+// DO THE ABOVE USING SIMPLER CODE.
+
+
+
+
+
+//Activate carousel
+
+carouselBack1.addEventListener("click", 
+    () => {
+        heroSlide1.classList.add("  ")
+    }
+)

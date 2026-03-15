@@ -1,30 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jheart Ventures</title>
-    <link rel="shortcut icon" href="img/jh-logo1.webp" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="shortcut icon" href="img/jh-logo1.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- THE WEBSITE HEADER -->
     <header>
-        <div class="logoSide">
-            <img src="img/jh-logo1.webp" alt="Web logo">
-            <span>Jheart Ventures</span>
-        </div>
-        <nav>
-            <ul>
-                <li id="homeBtn" class="navBtn active"><a href="index.html">Home</a></li>
-                <li id="paintingBtn" class="navBtn"><a href="index.html">Painting</a></li>
-                <li id="webMobBtn" class="navBtn"><a href="index.html">Web & Mobile</a></li>
-                <li id="contactBtn" class="navBtn"><a href="index.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="getQuoteBtn" class="getQuote"><button type="submit">Get a Quote</button></div>
+      <div class="logoSide">
+        <img src="img/jh-logo1.webp" alt="Web logo" />
+        <span>Jheart Ventures</span>
+      </div>
+      <nav>
+        <ul>
+          <li id="homeBtn" class="navBtn active">
+            <a href="index.html">Home</a>
+          </li>
+          <li id="paintingBtn" class="navBtn">
+            <a href="index.html">Painting</a>
+          </li>
+          <li id="webMobBtn" class="navBtn">
+            <a href="index.html">Web & Mobile</a>
+          </li>
+          <li id="contactBtn" class="navBtn">
+            <a href="index.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="getQuoteBtn" class="getQuote">
+        <button type="submit">Get a Quote</button>
+        <div class="menuBtn"><i class="fa fa-bars"></i></div>
+      </div>
     </header>
-    
+
+    <main>
+      <!-- THE WEBSITE HERO SECTION -->
+      <section class="hero">
+
+        <!-- Carousel First Slide -->
+        <div id="heroSlide1" class="heroSlide">
+          <button class="heroBtn1">CONNECT WITH US</button>
+          <h1>
+            Your Success is Our <br />
+            Priority
+          </h1>
+          <p>
+            Experience the Jheart Ventures difference. Quality,
+            <span> reliability and results. </span>
+          </p>
+          <button class="heroBtn2">Get Started</button>
+          <div class="slider">
+            <i id="carouselBack1" class="fa-solid fa-less-than"></i>
+            <div class="markersDiv">
+              <div class="markers"></div>
+              <div class="markers"></div>
+              <div class="markers"></div>
+            </div>
+            <i id="carouselNext1" class="fa-solid fa-greater-than"></i>
+          </div>
+        </div>
+
+        <!-- Carousel Second Slide -->
+        <div id="heroSlide2" class="heroSlide">
+          <button class="heroBtn1">CONNECT WITH US</button>
+          <h1>
+            Your Success is Our <br />
+            Priority
+          </h1>
+          <p>
+            Experience the Jheart Ventures difference. Quality,
+            <span> reliability and results. </span>
+          </p>
+          <button class="heroBtn2">Get Started</button>
+          <div class="slider">
+            <i id="carouselBack2" class="fa-solid fa-less-than"></i>
+            <div class="markersDiv">
+              <div class="markers"></div>
+              <div class="markers"></div>
+              <div class="markers"></div>
+            </div>
+            <i id="carouselNext2" class="fa-solid fa-greater-than"></i>
+          </div>
+        </div>
+
+        <!-- Carousel Third Slide -->
+        <div id="heroSlide3" class="heroSlide">
+          <button class="heroBtn1">CONNECT WITH US</button>
+          <h1>
+            Your Success is Our <br />
+            Priority
+          </h1>
+          <p>
+            Experience the Jheart Ventures difference. Quality,
+            <span> reliability and results. </span>
+          </p>
+          <button class="heroBtn2">Get Started</button>
+          <div class="slider">
+            <i id="carouselBack3" class="fa-solid fa-less-than"></i>
+            <div class="markersDiv">
+              <div class="markers"></div>
+              <div class="markers"></div>
+              <div class="markers"></div>
+            </div>
+            <i id="carouselNext3" class="fa-solid fa-greater-than"></i>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
