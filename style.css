@@ -23,6 +23,10 @@
   --foreground: #1a1a1a;
 }
 
+/* body{
+  width: 100vw;
+} */
+
 header {
   background-color: var(--navy-blue);
   padding: 20px 0;
@@ -32,7 +36,7 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
-  width: 100vw;
+  /* width: 100vw; */
   overflow: hidden;
 }
 
@@ -90,23 +94,49 @@ nav > ul > li > a {
   font-weight: 700;
 }
 
+/* .hero {
+  width: 100vw;
+  margin-left: 0;
+} */
+
 .heroSlide {
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 720px;
+  height: 660px;
+  /* width: 100vw; */
   /* height: 100vh; */
 
   border-top: var(--gold) solid 4px;
   border-bottom: var(--gold) solid 4px;
   row-gap: 20px;
-  background-image: url(img/2c1e5087-dc0c-4da4-ac7e-a04b27c8ddd7.jpg);
+
   background-repeat: no-repeat;
-  background-size: cover;
-    padding: 0;
+
+  padding: 0;
 }
+
+#heroSlide1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(img/sharp.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#heroSlide2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(img/Modern\ &\ Stylish\ Hybrid\ Office\ Workspace\ Design.webp);
+    background-size: cover;
+  background-position: center;
+}
+
+#heroSlide3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(img/interior1.webp);
+
+    background-size: cover;
+    background-position: center;
+}
+
 
 .heroSlide h1 {
   font-size: 72px;
@@ -153,7 +183,12 @@ nav > ul > li > a {
 
 .slider i {
   color: var(--background);
+  font-weight: 20px;
+  text-shadow: #1a1a1a 1px 1px 3px;
+    /* background-color: var(--gold-dark); */
 }
+
+
 
 .markersDiv {
   display: flex;
@@ -163,8 +198,15 @@ nav > ul > li > a {
 .markers {
   width: 12px;
   height: 12px;
-  background-color: var(--gold);
+  /* background-color: var(--gold); */
+  background-color: #1a1a1a7e;;
   border-radius: 50px;
+}
+
+.markersActive {
+  background-color: var(--gold-dark);
+  /* width: 70px; */
+  /* color: var(--background); */
 }
 
 /* Mobile view for hero */
@@ -211,4 +253,8 @@ nav > ul > li > a {
 
 .hidden {
   display: none;
+}
+
+.show {
+  display: flex;
 }
