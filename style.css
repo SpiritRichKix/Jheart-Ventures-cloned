@@ -258,3 +258,89 @@ nav > ul > li > a {
 .show {
   display: flex;
 }
+
+
+/* The About Section */
+.about-section {
+  height: 100vh;
+  width: calc(100vw/1.8);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  row-gap: 60px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.about-heading {
+  color: var(--navy-blue);
+  font-size: 36px;
+}
+
+.line {
+  background-color: var(--gold);
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  top: 160px;
+}
+
+.about-para {
+  color: var(--navy-blue-dark);
+  font-size: 18px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 15px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  border: 2px black solid;
+  width: 180px;
+  padding: 32px;
+  row-gap: 15px;
+  border-radius: 10px;
+}
+
+.feature div {
+  /* color: var(--gold); */
+  /* border-color: var(--navy-blue); */
+  background-color: var(--gold);
+  border-radius: 50px 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature i {
+  color: var(--gold);
+  /* border-color: var(--navy-blue); */
+  /* background-color: var(--navy-blue); */
+  border-radius: 50px 50px;
+  font-size: xx-large;
+}
+
+.feature :nth-child(2) {
+  font-size: 20px;
+  color: var(--navy-blue);
+  font-weight: bolder;
+}
+
+.feature :last-child {
+  font-size: 17px;
+  font-weight: normal;
+  color: var(--navy-blue-dark);
+}
